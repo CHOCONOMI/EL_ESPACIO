@@ -1,0 +1,55 @@
+.caja{
+    Width: 100%;
+    margin: auto;
+    display: inline-grid;
+}
+.cuadro{
+    width:90%;
+    margin: auto;
+    margin-bottom: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.solar{
+    width: 500px;
+    height: 500px;
+    background-image:url(../jpg/Sistema-solar.jpg);
+    background-size: cover;
+    margin:auto;
+    margin-top: 50px;
+    padding: 100px 50px 100px 50px;
+}
+.solar h1{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 25px;
+}
+.solar p{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 35px;
+}
+.constelacion{
+    width: 500px;
+    height: 500px;
+    background-image: url(../jpg/Constelaciones.jpg);
+    background-size: cover;
+    margin:auto;
+    margin-top: 50px;
+    padding: 100px 50px 100px 50px;
+}
+.constelacion h1{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 25px;
+}
+.constelacion p{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 35px;
+}

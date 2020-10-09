@@ -1,0 +1,55 @@
+.caja{
+    Width: 100%;
+    margin: auto;
+    display: inline-grid;
+}
+h1{
+    margin: 50px 10px 20px 100px;
+    color: darkgrey;
+}
+.planetas{
+    padding: 30px 125px 0px 125px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.planetas2{
+    padding: 0px 125px 0px 125px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.elemento{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10PX;
+    background-image: url(../jpg/93121.png);
+    background-size: cover;
+    padding: 40px 40px 40px 50px;
+}
+.elemento p{
+    text-align: center;
+    color: #FFFFFF;
+    font size: 30px;
+}
+.elemento img{
+    width: 150px;
+    height: 150px;
+}
+.elemento2{
+    width: 250px;
+    height: 250px;
+    background-image: url(../jpg/93121.png);
+    background-size: cover;
+    padding: 50px 30px 50px 35px;
+}
+.elemento2 p{
+    text-align: center;
+    color: #FFFFFF;
+    font size: 30px;
+}
+.elemento2 img{
+    width: 185px;
+    height: 130px;
+    margin-bottom: 5px;
+}

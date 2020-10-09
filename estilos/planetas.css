@@ -1,0 +1,71 @@
+.caja2 {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.seccion1{
+    width: 35%;
+    height: 500px;
+    margin: auto;
+    padding: 50px;
+    flex-direction: row;
+}
+.tarjeta {
+    width: 330px;
+    height: 420px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 25px;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(168,168,168,1);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(168,168,168,1);
+    box-shadow: 0px 0px 15px 5px rgba(168,168,168,1);
+
+}
+
+.tarjeta img{
+    width: 100px;
+    margin: 20px 0px 15px 90px;
+}
+.tarjeta h3{
+    color:#FF8282;
+    margin-bottom: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+.tarjeta p {
+    color:#FF8282;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.tarjeta span {
+    color:dimgray;
+    margin-bottom: 10px;
+}
+.seccion2 {
+    width: 65%;
+    height: 500px;
+    flex-direction: row;
+    padding: 25px 50px 0px 0px;
+}
+.texto {
+    width: 100% ;
+    height: 500px;
+    padding-top: 30px;
+}
+.texto h2{
+    color:#FF8282;
+    font-size: 35px;
+    margin: 10px;
+}
+.texto p{
+    font-size: 20px;
+    color: dimgray;
+}
+.fuente {
+    text-align: end;
+    font-size: 20px;
+    color: dimgray;
+    margin-top: 25px;
+}

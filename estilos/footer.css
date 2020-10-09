@@ -1,0 +1,13 @@
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #FF8282;
+    text-align: end;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
